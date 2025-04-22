@@ -1,0 +1,24 @@
+[user]
+  name = Smagia
+  email =
+
+[alias]
+  a = add
+  ai = add -i
+  sa = stash
+  sal = stash list
+  sap = stash pop
+  st = status
+  c = checkout
+  cb = checkout -b
+  m = checkout master
+  cm = commit -m
+  f = fetch
+  p = pull
+
+[pull]
+  rebase = true
+
+[push]
+  default = current
+  autoSetupRemote = true
